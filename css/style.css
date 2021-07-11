@@ -1,0 +1,58 @@
+.hidden{
+    display: none;
+}
+body{
+    height: 100%;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;  
+}
+
+
+img{
+position:absolute;
+z-index: -1;
+height: 100%;
+width: 100%;}
+
+#Login-form{
+    position: relative;
+
+}
+
+#greeting{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+#Login-form input,button{
+
+height: 50px;
+font-size: 30px;
+margin: 50px 0px;}
+
+
+
+#clock{
+    font-size: 150px;
+    color: white;
+    margin:300px 0px 0px;
+}
+#todo-list{
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+    
+}
+#todo-form input{height: 50px;
+    font-size: 20px;
+  }
+
+    #quotes{
+        font-size: 30px;
+        color: white;
+   
+    }
+#weather{font-size: 30px;
+    color: white;}
